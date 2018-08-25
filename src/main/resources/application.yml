@@ -1,0 +1,11 @@
+spring:
+  couchbase:
+    bucket:
+      name: beer-sample
+      password: beer-sample
+    bootstrap-hosts: localhost
+  data:
+    couchbase:
+      auto-index: true
+logging:
+  level.com.couchbase: OFF
